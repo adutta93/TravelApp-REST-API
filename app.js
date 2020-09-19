@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 
 //ROUTES(ALL)
 
-app.use('/api/v1/tours', tourRouter);
-app.use('/api/v1/users', userRouter);
+app.use('/api/tours', tourRouter);
+app.use('/api/users', userRouter);
 
 module.exports = app;
